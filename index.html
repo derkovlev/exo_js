@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-css-Js</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Training HTML CSS et JS</h1>
+        <P>
+            Pendant ce Training, je tente de créer un formulaire en html mis en fomre avec le css. les il aura comme mission de récupérer les inputs qui seront saisi dans le formulaire, <br>
+            Une fois soumis, au clic et d'afficher un message avec le nom prénom et le message dans une alertebox dans un premier temps.
+        </P>
+    </header>
+
+    <main>
+        <section>
+            <form id="formulaire">
+                <label for="firstname">Prénom</label>
+                <input type="text" id="firstname" name="user_firstname" placeholder="Gertrude">
+                <label for="lastname">Nom</label>
+                <input type="text" id="lastname" name="user_lastname" placeholder="Delarochebeaubois">
+                <label for="email">E-mail</label>
+                <input type="email" name="user_email" id="email" placeholder="barbare@gmail.com">
+                <label for="message">Quel est votre message ?</label>
+                <textarea name="user_message" id="message" cols="30" rows="10"></textarea>
+                <input id="valider" type="submit" value="valider">
+            </form>
+
+            
+        </section>
+    </main>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
